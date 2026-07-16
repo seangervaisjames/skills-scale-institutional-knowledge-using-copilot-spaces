@@ -6,19 +6,21 @@ This README is the central index for OctoAcme's project management process docum
 
 ## Process Summary
 
-OctoAcme uses a lightweight, iterative project management approach built on customer-first principles, clear ownership, and continuous improvement.
+OctoAcme runs projects through an iterative lifecycle: initiation, planning, execution/tracking, release, and retrospective improvement. Teams start with a lightweight one-pager to define the problem, goals, stakeholders, success metrics, timeline, and major risks before moving forward.
 
-**Initiation** — Confirm the business need, define measurable outcomes, align stakeholders on scope and success criteria, and make a go/no-go decision. Key output: a project charter or one-pager.
+During planning, approved work is translated into a prioritized backlog with estimates, milestones, dependencies, acceptance criteria, and a clear Definition of Done. In execution, teams deliver in small increments, track work on a visible board, and review progress through regular standups, delivery syncs, and milestone demos.
 
-**Planning** — Convert the approved initiative into a prioritized backlog with acceptance criteria, estimates, and a milestone-based release plan. Dependencies and risks are identified early and tracked throughout.
+Roles are intentionally cross-functional and explicit: PMs coordinate delivery and risk, PdMs own outcomes and prioritization, Developers implement and surface technical risks, QA validates acceptance criteria, and stakeholders provide direction and approvals. This role clarity keeps ownership visible and improves collaboration across project stages.
 
-**Execution & Tracking** — Deliver in small, testable increments. The team stays aligned through daily standups and weekly delivery syncs. Work moves through a structured project board (Backlog → In Progress → In Review → Done), and pull requests must be small, linked to issues, and pass CI checks before review.
+Communication and quality are built into delivery. Teams maintain a shared source of truth, provide regular status updates, and use a clear escalation path for blockers and incidents. Quality gates include PR review standards, CI checks (linting/build/security), required testing (unit/integration/smoke where applicable), release readiness checks, and post-release retrospectives with tracked action items.
 
-**Risk Management & Communication** — Risks are documented in a risk register and managed through a defined lifecycle (Identified → Assessed → Mitigated → Monitored → Closed). Weekly status updates and a tiered escalation model keep stakeholders informed and blockers resolved at the right level.
+### Lifecycle at a Glance
 
-**Release & Deployment** — Releases follow standardized pre-release gates (acceptance criteria met, CI passing, release notes written, rollback plan in place), coordinated deployment steps, post-deployment verification, and a stakeholder announcement.
-
-**Retrospective & Continuous Improvement** — After every sprint, release, or significant incident, the team captures what went well, what didn't, and root causes. Actionable improvements are added to the backlog and tracked.
+- **Initiation:** align on problem, outcomes, scope, and success criteria.
+- **Planning:** build prioritized backlog, milestones, and risk/dependency plans.
+- **Execution & Tracking:** deliver incrementally with clear workflow visibility.
+- **Release:** pass release gates, deploy safely, verify outcomes.
+- **Retrospective:** capture learnings and track continuous improvement actions.
 
 ### Roles & Personas
 
